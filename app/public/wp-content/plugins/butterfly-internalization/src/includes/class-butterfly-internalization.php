@@ -47,7 +47,7 @@ class Butterfly_Internalization {
    */
     public static function instance() {
         if ( is_null( self::$_instance ) ) {
-        self::$_instance = new self();
+            self::$_instance = new self();
         }
         return self::$_instance;
     }
