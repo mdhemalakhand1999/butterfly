@@ -1,0 +1,15 @@
+{
+    "name": "mdhemalakhand/butterfly-internalization",
+    "autoload": {
+        "psr-4": {
+            "ButterflyInternalization\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mdhemalakhand",
+            "email": "hemalrika@gmail.com"
+        }
+    ],
+    "require": {}
+}
