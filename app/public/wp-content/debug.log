@@ -1,9 +1,10 @@
-[06-Feb-2024 19:00:25 UTC] PHP Fatal error:  Uncaught Error: Class "Assets" not found in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-ajax\butterfly-ajax.php:40
+[07-Feb-2024 16:59:34 UTC] PHP Warning:  require_once(C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalizationvendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalization\internalizatoin.php on line 18
+[07-Feb-2024 16:59:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalizationvendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalization\internalizatoin.php:18
 Stack trace:
 #0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(473): include_once()
 #1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
 #2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
-#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\mdhema...')
-#4 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-ajax\butterfly-ajax.php on line 40
-[06-Feb-2024 19:07:32 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-ajax\includes\classes\class-wp-ajax.php on line 86
+#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\mdhema...')
+#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\index.php(10): require_once('C:\\Users\\mdhema...')
+#5 {main}
+  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalization\internalizatoin.php on line 18
