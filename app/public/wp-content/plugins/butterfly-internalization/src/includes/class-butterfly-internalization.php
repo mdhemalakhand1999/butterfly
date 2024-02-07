@@ -20,7 +20,6 @@ class Butterfly_Internalization {
      * @return void
      */
     public function __construct() {
-
         $this->double_underscore_localization();
         $this->underscore_e_localization();
         $this->attribute_localization_without_print();
