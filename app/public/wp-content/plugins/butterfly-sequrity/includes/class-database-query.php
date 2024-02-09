@@ -209,7 +209,9 @@ class Database_Query {
         }
         /**
          * Delete a cached data
+         * 
          * @param $post_id
+         * 
          * @return
          */
         // wp_cache_delete( $post_id, 'pdev_related_posts' );
