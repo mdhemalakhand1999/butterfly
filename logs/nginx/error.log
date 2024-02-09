@@ -1,1 +1,2 @@
 2024/01/20 19:24:43 [alert] 15092#13396: OpenEvent("ngx_master_8172") failed (2: The system cannot find the file specified)
+2024/02/07 23:34:03 [error] 10932#15656: *270 directory index of "C:/Users/mdhemalakhand/Local Sites/butterfly/app/public/wp-content/plugins/butterfly-internalization/vendor/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/plugins/butterfly-internalization/vendor/ HTTP/1.1", host: "localhost:10004"

@@ -1,5 +1,5 @@
 {
-    "name": "mdhemalakhand/butterfly-internalization",
+    "name": "butterfly/butterfly-internalization",
     "autoload": {
         "psr-4": {
             "ButterflyInternalization\\": "src/"
