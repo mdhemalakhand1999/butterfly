@@ -1,0 +1,2 @@
+<?php
+// since is golden
