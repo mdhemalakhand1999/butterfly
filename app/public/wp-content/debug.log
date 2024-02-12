@@ -1,75 +1,255 @@
-[07-Feb-2024 16:59:34 UTC] PHP Warning:  require_once(C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalizationvendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalization\internalizatoin.php on line 18
-[07-Feb-2024 16:59:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalizationvendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalization\internalizatoin.php:18
+[11-Feb-2024 14:35:35 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-butterfly-schedule-single-event.php on line 31
+[12-Feb-2024 17:04:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wpdb.php on line 1987
+[12-Feb-2024 17:04:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wpdb.php on line 1987
+[12-Feb-2024 17:04:55 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wpdb.php on line 1987
+[12-Feb-2024 17:14:56 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-butterfly-unschedule-event.php on line 52
+[12-Feb-2024 17:36:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_schedule(), 0 passed in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 5 and at least 1 expected in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php:1131
 Stack trace:
-#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(473): include_once()
-#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
-#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
-#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\mdhema...')
-#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\index.php(10): require_once('C:\\Users\\mdhema...')
-#5 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-internalization\internalizatoin.php on line 18
-[08-Feb-2024 16:54:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "editor-video" not found or invalid function name in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php:324
-Stack trace:
-#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
-#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
-#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(259): do_action('toplevel_page_b...')
-#3 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php on line 324
-[08-Feb-2024 17:09:40 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "butterfly_sequrity_add_menu_item_on_admin_bar" not found or invalid function name in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php:324
-Stack trace:
-#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
-#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
-#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\admin-bar.php(102): do_action('wp_before_admin...')
-#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(324): wp_admin_bar_render('')
-#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
-#5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
-#6 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin-header.php(267): do_action('in_admin_header')
-#7 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(239): require_once('C:\\Users\\mdhema...')
-#8 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php on line 324
-[08-Feb-2024 17:13:31 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 75
-[08-Feb-2024 17:14:47 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 77
-[08-Feb-2024 17:14:50 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 77
-[08-Feb-2024 17:15:48 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 80
-[08-Feb-2024 17:25:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_ob_clean() in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php:93
-Stack trace:
-#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(324): Custom_Menu->butterfly_sequrity_menu_callback('')
-#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
-#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
-#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(259): do_action('toplevel_page_b...')
-#4 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 93
-[08-Feb-2024 17:27:40 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Custom_Menu does not have a method "butterfly_nonce_form_submit" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php:324
-Stack trace:
-#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
-#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
-#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(643): do_action('init')
+#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php(5): wp_get_schedule()
+#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\butterfly-cron.php(27): include('C:\\Users\\mdhema...')
+#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(473): include_once('C:\\Users\\mdhema...')
 #3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
 #4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
 #5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\mdhema...')
 #6 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php on line 324
-[08-Feb-2024 17:34:38 UTC] PHP Warning:  Undefined array key "butterfly_nonce_action" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 121
-[08-Feb-2024 17:34:54 UTC] PHP Warning:  Undefined array key "butterfly_nonce_action" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 121
-[08-Feb-2024 17:43:28 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 150
-[08-Feb-2024 17:44:32 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 151
-[08-Feb-2024 18:04:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __x() in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php:156
+  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php on line 1131
+[12-Feb-2024 17:36:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_schedule(), 0 passed in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 5 and at least 1 expected in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php:1131
 Stack trace:
-#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(324): Custom_Menu->butterfly_sequrity_menu_callback('')
-#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
-#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
-#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(259): do_action('toplevel_page_b...')
-#4 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 156
-[09-Feb-2024 01:30:55 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wpdb.php on line 1987
-[09-Feb-2024 01:30:57 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wpdb.php on line 1987
-[09-Feb-2024 01:30:57 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wpdb.php on line 1987
-[09-Feb-2024 01:56:41 UTC] PHP Fatal error:  Uncaught TypeError: join(): Argument #2 ($array) must be of type ?array, string given in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php:245
+#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php(5): wp_get_schedule()
+#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\butterfly-cron.php(27): include('C:\\Users\\mdhema...')
+#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(473): include_once('C:\\Users\\mdhema...')
+#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
+#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
+#5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\mdhema...')
+#6 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\mdhema...')
+#7 {main}
+  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php on line 1131
+[12-Feb-2024 17:36:16 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
+[12-Feb-2024 17:36:16 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
+[12-Feb-2024 17:36:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_schedule(), 0 passed in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 5 and at least 1 expected in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php:1131
 Stack trace:
-#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php(245): join(Array, ',')
-#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(324): Custom_Menu->butterfly_sequrity_menu_callback('')
-#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php(5): wp_get_schedule()
+#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\butterfly-cron.php(27): include('C:\\Users\\mdhema...')
+#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(473): include_once('C:\\Users\\mdhema...')
+#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
+#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
+#5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\mdhema...')
+#6 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\mdhema...')
+#7 {main}
+  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php on line 1131
+[12-Feb-2024 17:36:27 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
+[12-Feb-2024 17:36:27 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
+[12-Feb-2024 17:36:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_schedule(), 0 passed in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 5 and at least 1 expected in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php:1131
+Stack trace:
+#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php(5): wp_get_schedule()
+#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\butterfly-cron.php(27): include('C:\\Users\\mdhema...')
+#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(473): include_once('C:\\Users\\mdhema...')
+#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
+#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
+#5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\mdhema...')
+#6 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\mdhema...')
+#7 {main}
+  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php on line 1131
+[12-Feb-2024 17:36:45 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
+[12-Feb-2024 17:36:45 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
+[12-Feb-2024 17:36:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_schedule(), 0 passed in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 5 and at least 1 expected in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php:1131
+Stack trace:
+#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php(5): wp_get_schedule()
+#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\butterfly-cron.php(27): include('C:\\Users\\mdhema...')
+#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(473): include_once('C:\\Users\\mdhema...')
+#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
+#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
+#5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\mdhema...')
+#6 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\mdhema...')
+#7 {main}
+  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php on line 1131
+[12-Feb-2024 17:36:53 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
+[12-Feb-2024 17:36:53 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
+[12-Feb-2024 17:37:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_schedule(), 0 passed in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 6 and at least 1 expected in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php:1131
+Stack trace:
+#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php(6): wp_get_schedule()
+#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(324): {closure}('')
+#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
 #3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
-#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(259): do_action('toplevel_page_b...')
-#5 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-sequrity\includes\class-custom-menu.php on line 245
+#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(643): do_action('init')
+#5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
+#6 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
+#7 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\mdhema...')
+#8 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\mdhema...')
+#9 {main}
+  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\cron.php on line 1131
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 33
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:39:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:40:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\includes\misc.php on line 1431
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 7049
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin-header.php on line 9
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\option.php on line 1478
+[12-Feb-2024 17:41:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\option.php on line 1479
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Undefined variable $schedules in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php on line 30
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin-ajax.php on line 27
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin-ajax.php on line 28
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6936
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\includes\misc.php on line 1431
+[12-Feb-2024 17:42:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-cron\includes\class-show-schedule-event.php:37) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 7049

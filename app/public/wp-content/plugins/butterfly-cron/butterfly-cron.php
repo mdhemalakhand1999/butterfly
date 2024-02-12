@@ -22,6 +22,9 @@ Text Domain: butterfly-cron
  */
 include __DIR__. '/includes/class-butterfly-cron.php';
 include __DIR__. '/includes/class-butterfly-schedule-single-event.php';
+include __DIR__. '/includes/class-butterfly-unschedule-event.php';
+include __DIR__. '/includes/class-cron-schedule.php';
+include __DIR__. '/includes/class-show-schedule-event.php';
 
 /**
  * Declare object as varaiable
@@ -30,3 +33,5 @@ include __DIR__. '/includes/class-butterfly-schedule-single-event.php';
  */
 $butterfly_cron = new Butterfly_Cron();
 $schedule_single_event = new Schedule_Single_Event();
+$unschedule_event = new Butterfly_Unschedule_Event();
+$cron_schedule = new Cron_Schedule();
