@@ -5,7 +5,7 @@
    $all_schedules = wp_get_schedules();
    $date_format = 'M j, Y @ G:i';
    // now do whatever your want ?>
-<div class="wrap d-none">
+<div class="wrap" style="display: none">
    <h1 class="wp-heading-inline">Scheduled Events</h1>
    <table class="widefat fixed striped">
       <thead>
