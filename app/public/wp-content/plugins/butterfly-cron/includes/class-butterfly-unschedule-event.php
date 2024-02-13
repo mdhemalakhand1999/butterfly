@@ -8,7 +8,7 @@
  * @since 1.0.0
  */
 class Butterfly_Unschedule_Event {
-    private $_instance = null;
+    private static $_instance = null;
     /**
      * Create an instance
      * 
