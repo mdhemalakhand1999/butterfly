@@ -9,7 +9,7 @@
  */
 
  class Cron_Schedule {
-    private $_instance = null;
+    private static $_instance = null;
     /**
      * Create an instance
      * 
