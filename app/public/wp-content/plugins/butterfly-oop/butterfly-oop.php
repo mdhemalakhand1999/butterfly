@@ -27,3 +27,8 @@ define('BUTTERFLY_OOP_ROOT_PATH', plugin_dir_url( __FILE__ ));
  */
 include __DIR__. '/includes/principals/method-chaining.php';
 include __DIR__. '/includes/principals/dependency-injection.php';
+include __DIR__. '/includes/principals/solid/dependency-inversion-principal.php';
+include __DIR__. '/includes/principals/solid/single-responsibility-principal.php';
+include __DIR__. '/includes/principals/solid/open-close-principal.php';
+include __DIR__. '/includes/principals/solid/liskov-substitution-principle.php';
+include __DIR__. '/includes/principals/solid/interface-segregation-principle.php';

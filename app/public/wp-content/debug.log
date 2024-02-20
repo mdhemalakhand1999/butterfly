@@ -1,22 +1,13 @@
-[19-Feb-2024 16:54:15 UTC] PHP Fatal error:  Uncaught Error: Class "displayStudntName" not found in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\includes\principals\dependency-injection.php:125
+[20-Feb-2024 17:05:20 UTC] PHP Fatal error:  Uncaught TypeError: Interface_Segregation_Principle::essential_information(): Argument #1 ($obj) must be of type Shool_Management_Interface, School_Management_Class given, called in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\includes\principals\solid\interface-segregation-principle.php on line 117 and defined in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\includes\principals\solid\interface-segregation-principle.php:100
 Stack trace:
-#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\butterfly-oop.php(29): include()
-#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(473): include_once('C:\\Users\\mdhema...')
-#2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
-#3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
-#4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-blog-header.php(13): require_once('C:\\Users\\mdhema...')
-#5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\index.php(17): require('C:\\Users\\mdhema...')
-#6 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\includes\principals\dependency-injection.php on line 125
-[19-Feb-2024 16:54:15 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
-[19-Feb-2024 16:54:15 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
-[19-Feb-2024 16:55:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method InsertStudent::displayAge() in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\includes\principals\dependency-injection.php:120
-Stack trace:
-#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\includes\principals\dependency-injection.php(129): DisplayStudent->displayStudntName(Object(InsertStudent))
-#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\butterfly-oop.php(29): include('C:\\Users\\mdhema...')
+#0 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\includes\principals\solid\interface-segregation-principle.php(117): Interface_Segregation_Principle->essential_information(Object(School_Management_Class))
+#1 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\butterfly-oop.php(34): include('C:\\Users\\mdhema...')
 #2 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-settings.php(473): include_once('C:\\Users\\mdhema...')
 #3 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-config.php(104): require_once('C:\\Users\\mdhema...')
 #4 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-load.php(50): require_once('C:\\Users\\mdhema...')
-#5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\mdhema...')
-#6 {main}
-  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\includes\principals\dependency-injection.php on line 120
+#5 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-blog-header.php(13): require_once('C:\\Users\\mdhema...')
+#6 C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\index.php(17): require('C:\\Users\\mdhema...')
+#7 {main}
+  thrown in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-content\plugins\butterfly-oop\includes\principals\solid\interface-segregation-principle.php on line 100
+[20-Feb-2024 17:05:20 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
+[20-Feb-2024 17:05:20 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\mdhemalakhand\Local Sites\butterfly\app\public\wp-includes\functions.php on line 6031
